@@ -1,0 +1,103 @@
+html,
+body {
+  width: 100%;
+  scroll-behavior: smooth;
+}
+.menu a {
+  color: #fff;
+  font-family: "Roboto", serif;
+}
+#principal {
+  background: url("../img/fundo.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title,
+.description,
+.trip-button {
+  color: #fff;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+.title {
+  font-size: 3.5rem;
+  margin-left: -5.2rem;
+  margin-top: 10rem;
+}
+.description {
+  font-size: 1.2rem;
+  margin-left: -6rem;
+}
+.trip-button {
+  background-color: #fb8c00;
+  border-radius: 15px;
+  font-size: 2rem;
+  margin-top: 20px;
+  padding: 16px;
+}
+
+.trip-button:hover {
+  transition: all ease 0.3s;
+  text-decoration: underline;
+}
+#about {
+  background-color: #eee;
+  font-family: "Roboto", serif;
+}
+#faq {
+  background-color: #005cb2;
+  font-family: "Roboto", serif;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .title,
+  .description,
+  .trip-button {
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .title {
+    font-size: 3rem;
+    margin: 20%;
+  }
+  .description {
+    font-size: 1.4rem;
+  }
+  .trip-button {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .title {
+    margin-left: 1.8rem;
+  }
+  .description {
+    margin-left: 1rem;
+  }
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menu a {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1339px) {
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menu a {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+  }
+  .menu a:hover {
+    background-color: #111;
+    transition: all ease 0.4s;
+    padding: 5px;
+  }
+}
