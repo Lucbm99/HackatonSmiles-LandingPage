@@ -21,7 +21,7 @@ Sublime Text: https://www.sublimetext.com/
 
 ## 2 - Após isso, basta abrir o arquivo index.html na pasta gerada e o resultado será igual a este: 
 
-![image](https://user-images.githubusercontent.com/45500959/112740203-6dab5500-8f51-11eb-99ff-f2f3e28a190f.png)
+![image](https://user-images.githubusercontent.com/45500959/112759423-4a23f100-8fc9-11eb-946c-fd1b22674dba.png)
 
 
 ## 📦 Status do Site
